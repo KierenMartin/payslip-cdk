@@ -4,7 +4,9 @@ jobs:
   aws_cdk:
     runs-on: ubuntu-latest
     steps:
-
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: cdk diff
         uses: youyo/aws-cdk-github-actions@v2
         with:
