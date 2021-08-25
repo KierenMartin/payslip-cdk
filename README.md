@@ -1,3 +1,7 @@
+# Welcome to your CDK TypeScript project!
+
+This is a blank project for TypeScript development with CDK.
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
@@ -10,10 +14,10 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk synth`       emits the synthesized CloudFormation template
 
 
-As per the guide I followed:  
-`npm run build` to compile first  
-`cdk ls` to get the ID of the coded stack  
-`cdk deploy [Stack ID here]` to deploy`  
+As per the guide I followed:
+`npm run build` to compile first
+`cdk ls` to get the ID of the coded stack
+`cdk deploy [Stack ID here]` to deploy`
 
 You can also use `cdk ls -l` to see if the computer can figure out any information about the project. It will also let you know if there are any obvious errors (eg syntax).
 
