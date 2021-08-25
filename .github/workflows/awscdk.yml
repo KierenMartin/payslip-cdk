@@ -32,7 +32,7 @@ jobs:
         uses: youyo/aws-cdk-github-actions@v2
         with:
           cdk_subcommand: 'deploy'
-          cdk_stack: 'payslip-stack'
+#          cdk_stack: 'payslip-stack'
           cdk_args: '--require-approval never'
           actions_comment: false
         env:
